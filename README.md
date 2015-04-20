@@ -9,6 +9,7 @@ Vink Syntax theme inspired by WekeRoad Ink.
 [Releases](https://github.com/JoeRobich/fd-vink/releases/) 
 
 ## History
+**v1.4** - Updated syntax theme to use xml override files.  
 **v1.3** - Updated syntax files for FD5.  
 **v1.2** - Initial release.  
 **v0.1** - Initial creation  
