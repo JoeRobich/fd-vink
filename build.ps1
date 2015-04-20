@@ -13,8 +13,8 @@ Copy-Item VinkSyntax/* Build/VinkSyntaxTheme -recurse
 [IO.Compression.ZipFile]::CreateFromDirectory('Build\VinkSyntaxTheme', 'Build\VinkSyntaxTheme.fdz');
 
 #Copy syntax theme so it will be deployed with other syntax themes
-New-Item 'Build/VinkSyntaxTheme/$(BaseDir)/Settings/Theme/SyntaxThemes' -type directory
-Move-Item Build/VinkSyntaxTheme.fdz 'Build/VinkSyntaxTheme/$(BaseDir)/Settings/Theme/SyntaxThemes/VinkSyntaxTheme.fdz'
+New-Item 'Build/VinkSyntaxTheme/$(BaseDir)/Settings/Themes/SyntaxThemes' -type directory
+Move-Item Build/VinkSyntaxTheme.fdz 'Build/VinkSyntaxTheme/$(BaseDir)/Settings/Themes/SyntaxThemes/VinkSyntaxTheme.fdz'
 
 #Recreate syntax theme fdz
 [IO.Compression.ZipFile]::CreateFromDirectory('Build\VinkSyntaxTheme', 'Build\VinkSyntaxTheme.fdz');
